@@ -13,19 +13,42 @@ nav {
 }
 
 .menu {
+	padding:0px;
 	margin: 0px;
-	padding: 0px;
+	
 }
 
 .menu li{
-	
-	margin: 0px;
 	display: inline;
-	border-right: solid 1px #CCC;
-	padding: 8px;
+	border-right: solid 2px white;
+	padding: 3px;
 	
 
 }
 .menu li a{
 	color: white;
+	
+}
+
+article {
+	float: left;
+	width: 60%;
+}
+
+aside {
+	float: left;
+	width: 40%;
+}
+
+img {
+	width: 50%;
+}
+
+footer {
+	position: relative; 
+	margin-top: -50px; /* altura en px del footer con valor negativo */ 
+	height: 50px; /* Altura del Footer en px*/ 
+	clear: both; 
+	text-align: center;
+	background-color: black;
 }
