@@ -75,7 +75,7 @@ footer {
 
 @media print {
     header, nav, footer{
-		visibility: hidden;
+		display:none;
     }
 	article, aside{
 		width 100%
