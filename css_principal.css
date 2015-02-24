@@ -12,18 +12,20 @@ nav {
 	background-color: black;
 }
 
-menu ul{
-	
+.menu {
+	margin: 0px;
+	padding: 0px;
 }
 
 .menu li{
+	
+	margin: 0px;
 	display: inline;
-	border-right: solid 2px white;
-	padding: 3px;
+	border-right: solid 1px #CCC;
+	padding: 8px;
 	
 
 }
 .menu li a{
 	color: white;
-	
 }
