@@ -65,3 +65,86 @@ footer {
 		width: 100%;
 	}
 }
+
+
+
+@media screen and (max-width: 320px){
+	
+	body{
+		margin:0px;
+		padding: 0px;
+	}
+
+	header {
+		float: left;
+		background-color: #CCC;
+		width: 100%;
+		padding-left: 5%;
+		font-weight: bold;
+		font-size: 24px;
+	}
+
+	nav {
+		width: 100%;
+		float: left;
+		background-color: black;
+	}
+
+	.menu {
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.menu li{
+		padding: 6px;
+	}
+	
+	.menu li a{
+		color: white;
+	}
+
+	.submenu li{
+	
+		display: inline;
+		border-right: solid 1px #CCC;
+		border-left: solid 1px #CCC;
+		padding-left: 8px;
+		padding-right: 8px;
+		padding-top: 14px;
+		padding-bottom: 14px;
+	}
+
+	.submenu li a{
+		color: white;
+	}
+
+	p {
+		text-align: justify;
+	}
+
+	article {
+		padding-left: 3%;
+		float: left;
+		width: 100%;
+	}
+
+	aside {
+		float: left;
+		width: 100%;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	footer {
+		position: relative; 
+		margin-top: -50px; /* 470altura en px del footer con valor negativo */ 
+		height: 50px; /* Altura del Footer en px*/ 
+		clear: both; 
+		text-align: center;
+		padding-top:1px;
+		background-color: black;
+	}
+}
