@@ -52,3 +52,12 @@ footer {
 	text-align: center;
 	background-color: black;
 }
+
+@media print {
+    header, nav, footer{
+		display: none;
+    }
+	article, aside{
+		width 100%
+	}
+}
