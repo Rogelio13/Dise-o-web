@@ -1,77 +1,61 @@
+
 header {
-	float: top;
+	float: left;
 	background-color: #CCC;
 	padding: 8px 0px 8px 22px;
 	font-size: 24px;
+	width: 100%;
 }
 
 nav {
+	float: left;
 	background-color: black;
+	width: 100%;
 }
 
 .menu {
-    margin: 0px;
-	padding: 0px;
-	height: 28px;
+	padding:0px;
+	margin: 0px;
+	
 }
 
 .menu li{
-	margin: 0px;
 	display: inline;
-	border-right: solid 1px #CCC;
-	padding: 8px;
+	border-right: solid 2px white;
+	padding: 3px;
 	
 
 }
 .menu li a{
 	color: white;
-}
-
-.submenu li{
 	
-	display: inline;
-	border-right: solid 1px #CCC;
-	border-left: solid 1px #CCC;
-	padding-left: 8px;
-	padding-right: 8px;
-	padding-top: 14px;
-	padding-bottom: 14px;
-}
-
-.submenu li a{
-	color: white;
-}
-
-p {
-	text-align: justify;
 }
 
 article {
 	float: left;
-	width: 58%;
-	padding-left: 2%;
+	width: 60%;
 }
 
 aside {
-	padding-left:5%;
 	float: left;
-	width: 35%;
+	width: 40%;
 }
 
 img {
 	width: 50%;
 }
 
-footer {
-	position: relative; 
-	margin-top: -50px; /* altura en px del footer con valor negativo */ 
-	height: 50px; /* Altura del Footer en px*/ 
-	clear: both; 
-	text-align: center;
-	padding-top:1px;
-	background-color: black;
+div {
+	float: left;
+	width: 100%;
 }
 
+footer {
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+}
 
 @media print {
     header, nav, footer{
