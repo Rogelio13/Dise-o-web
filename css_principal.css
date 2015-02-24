@@ -71,3 +71,13 @@ footer {
 	padding-top:1px;
 	background-color: black;
 }
+
+
+@media print {
+    header, nav, footer{
+		visibility: hidden;
+    }
+	article, aside{
+		width 100%
+	}
+}
