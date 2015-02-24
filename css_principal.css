@@ -6,3 +6,9 @@ header {
 nav {
 	background-color: black;
 }
+
+.menu.li{
+	color: white;
+	display: inline;
+	border: 3px white;
+}
