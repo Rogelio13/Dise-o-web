@@ -76,6 +76,7 @@ footer {
 	body{
 		margin:0px;
 		padding: 0px;
+		overflow: hidden;
 	}
 
 	header {
@@ -85,6 +86,7 @@ footer {
 		padding-left: 5%;
 		font-weight: bold;
 		font-size: 24px;
+		position: fixed;
 	}
 
 	nav {
@@ -165,6 +167,7 @@ footer {
 		padding: 8px 0px 8px 22px;
 		font-size: 24px;
 		width: 100%;
+		position: fixed;
 	}
 
 	nav {
