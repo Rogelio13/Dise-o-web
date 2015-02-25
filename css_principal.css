@@ -5,9 +5,10 @@ header {
 	padding: 8px 0px 8px 22px;
 	font-size: 24px;
 	width: 100%;
+	font-weight: bold;
 }
 
-nav {
+nav { 
 	float: left;
 	background-color: black;
 	width: 100%;
@@ -32,13 +33,15 @@ nav {
 }
 
 article {
+	padding-left: 2%;
 	float: left;
-	width: 60%;
+	width: 58%;
 }
 
 aside {
+	padding-left: 5%;
 	float: left;
-	width: 40%;
+	width: 35%;
 }
 
 img {
