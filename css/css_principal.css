@@ -1,7 +1,7 @@
 @charset "UTF-8"; 
 
 body{
-	font-size: 40px;
+	font-size: 16px;
 }
 
 header, nav, div, article, aside, footer {
@@ -65,7 +65,7 @@ p{
 
 .menu li a{
 	color: white;	
-	font-size: 3em;
+	font-size: 1em;
 }
 
 @media only screen and (max-device-width: 320px){
@@ -125,7 +125,7 @@ p{
 	}
 
 	nav {
-		margin-top: 30%;
+		margin-top: 0%;
 		margin-left: 3%;
 		font-size: 0.5em;
 	}
@@ -137,11 +137,11 @@ p{
 	article {
 		padding-left: 6%;
 		width: 100%;
-		font-size: 0.5em;
+		font-size: 1em;
 	}
 
 	h2{
-		font-size: 0.75em;
+		font-size: 1em;
 	}
 
 	aside {
