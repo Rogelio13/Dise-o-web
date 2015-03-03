@@ -125,7 +125,7 @@ p{
 	}
 
 	aside {
-		width: 100%;
+		display: none;
 	}
 
 	img {
