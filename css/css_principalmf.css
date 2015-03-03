@@ -17,13 +17,17 @@
 	}
 
 	header {
+		background-color: #CCC;
 		padding: 8px 0px 8px 16px;
 		font-size: 60px;
+		font-weight: bold;
 		position: fixed;
 	}
 
 	nav {
+		background-color: black;
 		margin-top: 210px;
+		width: 100%;
 	}
 
 
@@ -42,28 +46,38 @@
 	footer nav{
 		margin-top: 10px;
 	}
+	
+	p{
+		text-align: justify;
+	}
+	
+	footer {
+		width: 100%;
+		text-align: center;
+		background-color: black;
+	}
 
 	.menu li{
+		border-right: solid 2px white;
 		padding-left: 3%;
 		float: left;
 		width:100%;
 	}
+	
+	.menu li a{
+		color: white;	
+	}
 }
 
 @media only screen and (max-device-width: 320px){
-	body{
-		margin:0px;
-		padding: 0px;
-	}
 
 	header {
 		padding-left: 6%;
 		font-size: 84px;
 		padding-top: 0px;
 		padding-bottom: 0px;
-		position: fixed;
 	}
-
+	
 	nav {
 		margin-top: 30%;
 		margin-left: 3%;
@@ -74,12 +88,6 @@
 		width: 100%;
 	}
 
-	aside {
-		width: 100%;
-		padding-left: 6%;
-		font-size: 52px;
-	}
-
 	img {
 		width: 100%;
 	}
@@ -87,7 +95,7 @@
 	footer nav{
 		margin-top: 0px;
 	}
-
+	
 	.menu li{
 		display: block;
 		padding-left: 18px;
@@ -98,16 +106,8 @@
 
 
 header {
-	background-color: #CCC;
 	padding: 8px 0px 8px 22px;
 	font-size: 24px;
-	width: 100%;
-	font-weight: bold;
-}
-
-nav { 
-	background-color: black;
-	width: 100%;
 }
 
 article {
@@ -124,28 +124,8 @@ img {
 	width: 50%;
 }
 
-footer {
-	width: 100%;
-	text-align: center;
-	background-color: black;
-}
-
-p{
-	text-align: justify;
-}
-
-
 .menu li{
 	display: inline;
-	border-right: solid 2px white;
-	padding: 3px;
 	
-
+	padding: 3px;
 }
-
-.menu li a{
-	color: white;	
-}
-
-
-
