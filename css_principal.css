@@ -1,6 +1,14 @@
+@charset "UTF-8"; 
+
+html, body {
+	border-style: none!important;
+}
+
+header, nav, div, article, aside, footer {
+	float: left;
+}
 
 header {
-	float: left;
 	background-color: #CCC;
 	padding: 8px 0px 8px 22px;
 	font-size: 24px;
@@ -9,16 +17,34 @@ header {
 }
 
 nav { 
-	float: left;
 	background-color: black;
 	width: 100%;
 }
 
-.menu {
-	padding:0px;
-	margin: 0px;
-	
+article {
+	padding-left: 2%;
+	width: 58%;
 }
+
+aside {
+	padding-left: 5%;
+	width: 35%;
+}
+
+img {
+	width: 50%;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: black;
+}
+
+p{
+	text-align: justify;
+}
+
 
 .menu li{
 	display: inline;
@@ -27,52 +53,12 @@ nav {
 	
 
 }
+
 .menu li a{
-	color: white;
-	
+	color: white;	
 }
-
-article {
-	padding-left: 2%;
-	float: left;
-	width: 58%;
-}
-
-aside {
-	padding-left: 5%;
-	float: left;
-	width: 35%;
-}
-
-img {
-	width: 50%;
-}
-
-div {
-	float: left;
-	width: 100%;
-}
-
-footer {
-	float: left;
-	width: 100%;
-	text-align: center;
-	background-color: black;
-}
-
-@media print {
-    header, nav, footer{
-		display:none;
-    }
-	article, aside{
-		width: 100%;
-	}
-}
-
-
 
 @media only screen and (max-device-width: 320px){
-	
 	body{
 		margin:0px;
 		padding: 0px;
@@ -80,11 +66,7 @@ footer {
 	}
 
 	header {
-		float: left;
-		background-color: #CCC;
-		width: 100%;
 		padding-left: 6%;
-		font-weight: bold;
 		font-size: 84px;
 		padding-top: 0px;
 		padding-bottom: 0px;
@@ -94,88 +76,76 @@ footer {
 	nav {
 		margin-top: 30%;
 		margin-left: 3%;
-		width: 100%;
-		float: left;
-		background-color: black;
-	}
-
-	.menu {
-		height: 186px; 
-		width: 100%;
-		margin: 0px;
-		padding: 0px;
-	}
-
-	.menu li{
-		display: block;
-		padding-left: 18px;
-		font-size: 46px;
-	}
-	
-	.menu li a{
-		color: white;
-	}
-
-	p {
-		text-align: justify;
 	}
 
 	article {
 		padding-left: 6%;
-		float: left;
 		width: 100%;
 	}
 
 	aside {
-		float: left;
 		width: 100%;
 		padding-left: 6%;
 		font-size: 52px;
 	}
 
 	img {
-		width: 100%; 
+		width: 100%;
 	}
 
-	footer { 
-		width: 100%;
-		float: left;
-		text-align: center;
-		background-color: black;
-	}
-	
 	footer nav{
 		margin-top: 0px;
 	}
-	
+
+	/*.menu {
+		height: 186px;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}*/
+	.menu li{
+		display: block;
+		padding-left: 18px;
+		font-size: 46px;
+	}	
 }
- @media only screen and (max-device-width: 240px){
- 
+
+@media only screen and (max-device-width: 240px){
+	*{
+		font-size: 60px;
+	}
+
 	body {
 		margin:0px;
 		padding:0px;
 		/*overflow: hidden;/*esto esconde la barra lateral*/
 	}
-	
+
 	header {
-		float: left;
-		background-color: #CCC;
 		padding: 8px 0px 8px 16px;
 		font-size: 60px;
-		width: 100%;
 		position: fixed;
 	}
 
 	nav {
-		float: left;
-		background-color: black;
-		width: 100%;
 		margin-top: 210px;
 	}
 
-	.menu {
-		height: 70px; 
-		margin: 0px;
+
+	article {
+		width: 90%;
+	}
+
+	aside {
+		width: 100%;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	footer nav{
+		margin-top: 10px;
 	}
 
 	.menu li{
@@ -183,39 +153,4 @@ footer {
 		float: left;
 		width:100%;
 	}
-
-	.menu li a{
-		color: white;
-	}
-
-	article {
-		float: left;
-		width: 100%;
-	} 
-
-	aside {
-		float: left;
-		width: 100%;
-	}	
-
-	img {
-		float: left;
-		width: 100%;
-	}
-
-	div {
-		float: left;
-		width: 100%;
-	}
-
-	footer {
-		float: left;
-		width: 100%;
-		text-align: center;
-		background-color: black;
-	}
-	
-	*{
-		font-size: 60px;
-	}
- }
+}
