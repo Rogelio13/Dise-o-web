@@ -1,5 +1,9 @@
 @charset "UTF-8"; 
 
+body{
+	font-size: 16px;
+}
+
 header, nav, div, article, aside, footer {
 	float: left;
 }
@@ -7,19 +11,29 @@ header, nav, div, article, aside, footer {
 header {
 	background-color: #CCC;
 	padding: 8px 0px 8px 22px;
-	font-size: 24px;
+	font-size: 2em;
 	width: 100%;
 	font-weight: bold;
+}
+
+h1{
+	font-size: 1.5em;
 }
 
 nav { 
 	background-color: black;
 	width: 100%;
+	font-size: 1em;
 }
 
 article {
 	padding-left: 2%;
 	width: 58%;
+	font-size: 1em;
+}
+
+h2{
+	font-size: 1.38em;
 }
 
 aside {
@@ -46,8 +60,6 @@ p{
 	display: inline;
 	border-right: solid 2px white;
 	padding: 3px;
-	
-
 }
 
 .menu li a{
@@ -55,33 +67,36 @@ p{
 }
 
 @media only screen and (max-device-width: 320px){
-	body{
-		margin:0px;
-		padding: 0px;
-	}
-
 	header {
 		padding-left: 6%;
-		font-size: 84px;
 		padding-top: 0px;
 		padding-bottom: 0px;
 		position: fixed;
+		font-size: 1.75em;
 	}
 
 	nav {
 		margin-top: 30%;
 		margin-left: 3%;
+		font-size: 0.75em;
+	}
+
+	h1{
+		font-size: 1.25em;
 	}
 
 	article {
 		padding-left: 6%;
 		width: 100%;
+		font-size: 0.75em;
+	}
+
+	h2{
+		font-size: 1em;
 	}
 
 	aside {
-		width: 100%;
-		padding-left: 6%;
-		font-size: 52px;
+		display:none;
 	}
 
 	img {
@@ -95,37 +110,40 @@ p{
 	.menu li{
 		display: block;
 		padding-left: 18px;
-		font-size: 46px;
 	}	
 }
 
 @media only screen and (max-device-width: 240px){
-	*{
-		font-size: 60px;
-	}
-
-	body {
-		margin:0px;
-		padding:0px;
-	}
-
 	header {
-		padding: 8px 0px 8px 16px;
-		font-size: 60px;
+		padding-left: 6%;
+		padding-top: 0px;
+		padding-bottom: 0px;
 		position: fixed;
+		font-size: 1.5em;
 	}
 
 	nav {
-		margin-top: 210px;
+		margin-top: 30%;
+		margin-left: 3%;
+		font-size: 0.5em;
 	}
 
+	h1{
+		font-size: 1em;
+	}
 
 	article {
-		width: 90%;
+		padding-left: 6%;
+		width: 100%;
+		font-size: 0.5em;
+	}
+
+	h2{
+		font-size: 0.75em;
 	}
 
 	aside {
-		display: none;
+		display:none;
 	}
 
 	img {
@@ -133,12 +151,11 @@ p{
 	}
 
 	footer nav{
-		margin-top: 10px;
+		margin-top: 0px;
 	}
 
 	.menu li{
-		padding-left: 3%;
-		float: left;
-		width:100%;
-	}
+		display: block;
+		padding-left: 18px;
+	}	
 }
