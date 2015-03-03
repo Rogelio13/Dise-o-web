@@ -17,7 +17,7 @@ body {
 header {
 	background-color: #CCC;
 	padding: 8px 0px 8px 16px;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: bold;
 	width: 100%;
 	position: fixed;
@@ -35,7 +35,7 @@ nav {
 	background-color: black;
 	width: 100%;
 	font-size: 1em;
-	margin-top:5%;
+	margin-top:32%;
 }
 
 
@@ -58,6 +58,7 @@ footer nav{
 	
 p{
 	text-align: justify;
+	font-size: 2em;
 }
 	
 footer {
@@ -75,34 +76,35 @@ footer {
 	
 .menu li a{
 	color: white;
-	font-size: 1em;
+	font-size: 3em;
 }
 
-/*
-@media (min-width: 341px) {
+
+@media only screen and (min-device-width: 341px) {
 
 	header {
 		padding: 8px 0px 8px 22px;
-		font-size: 1em;
+		font-size: 2em;
 		position: static;
 		float: left;
 	}
 
 	nav { 
-		margin-top: 0px;
+		margin-top: 0%;
+		width: 100%;
 	}
 
 	article {
 		padding-left: 2%;
 		width: 58%;
-		font-size: 0.5em;
+		font-size: 1em;
 	}
 
 	aside {
 		display: initial;
 		padding-left: 5%;
 		width: 35%;
-		font-size: 0.5em;
+		font-size: 1em;
 	}
 
 	img {
@@ -117,7 +119,7 @@ footer {
 
 	p{
 		text-align: justify;
-		font-size: 0.5em;
+		font-size: 1em;
 	}
 
 
@@ -129,8 +131,14 @@ footer {
 	}
 	
 	.menu li a{
-		font-size: 0.5em;
+		font-size: 1em;
 	}
 
 }
-*/
+/**/
+
+
+
+
+
+
