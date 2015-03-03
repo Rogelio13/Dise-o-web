@@ -1,7 +1,7 @@
 @charset "UTF-8"; 
 
 *{
-	font-size: 60px;
+	font-size: 16px;
 }
 	
 header, nav, div, article, aside, footer {
@@ -12,7 +12,6 @@ header, nav, div, article, aside, footer {
 body {
 	margin:0px;
 	padding:0px;
-	font-size: 40px;
 }
 
 header {
@@ -34,9 +33,9 @@ h2{
 
 nav {
 	background-color: black;
-	margin-top: 170px;
 	width: 100%;
 	font-size: 1em;
+	margin-top:5%;
 }
 
 
@@ -46,7 +45,7 @@ article {
 }
 
 aside {
-	display: hidden;
+	display: none;
 }
 
 img {
@@ -76,28 +75,34 @@ footer {
 	
 .menu li a{
 	color: white;
-	font-size: 3em;
+	font-size: 1em;
 }
 
+/*
 @media (min-width: 341px) {
+
 	header {
 		padding: 8px 0px 8px 22px;
-		font-size: 24px;
+		font-size: 1em;
+		position: static;
+		float: left;
 	}
 
 	nav { 
-		background-color: black;
+		margin-top: 0px;
 	}
 
 	article {
 		padding-left: 2%;
 		width: 58%;
+		font-size: 0.5em;
 	}
 
 	aside {
 		display: initial;
 		padding-left: 5%;
 		width: 35%;
+		font-size: 0.5em;
 	}
 
 	img {
@@ -112,13 +117,20 @@ footer {
 
 	p{
 		text-align: justify;
+		font-size: 0.5em;
 	}
 
 
 	.menu li{
+		float: none;
 		display: inline;
 		border-right: solid 2px white;
 		padding: 3px;
 	}
+	
+	.menu li a{
+		font-size: 0.5em;
+	}
 
 }
+*/
