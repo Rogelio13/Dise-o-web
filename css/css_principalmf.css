@@ -17,10 +17,9 @@ body {
 header {
 	background-color: #CCC;
 	padding: 8px 0px 8px 16px;
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: bold;
 	width: 100%;
-	position: fixed;
 }
 
 h1{
@@ -35,7 +34,6 @@ nav {
 	background-color: black;
 	width: 100%;
 	font-size: 1em;
-	margin-top:32%;
 }
 
 
@@ -58,7 +56,7 @@ footer nav{
 	
 p{
 	text-align: justify;
-	font-size: 2em;
+	font-size: 1em;
 }
 	
 footer {
@@ -76,23 +74,23 @@ footer {
 	
 .menu li a{
 	color: white;
-	font-size: 3em;
+	font-size: 1em;
 }
 
 
 @media only screen and (min-device-width: 341px) {
 
-	header {
+	/*header {
 		padding: 8px 0px 8px 22px;
 		font-size: 2em;
 		position: static;
 		float: left;
-	}
+	}*/
 
-	nav { 
+	/*nav { 
 		margin-top: 0%;
 		width: 100%;
-	}
+	}*/
 
 	article {
 		padding-left: 2%;
